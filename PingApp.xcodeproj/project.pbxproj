@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		PingApp_AppDelegate /* PingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = PingApp_AppDelegate_File /* PingApp.swift */; };
+		PingApp_AppState /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = PingApp_AppState_File /* AppState.swift */; };
+		PingApp_Assets /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = PingApp_Assets_File /* Assets.xcassets */; };
+		PingApp_ColorRules /* ColorRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = PingApp_ColorRules_File /* ColorRules.swift */; };
+		PingApp_ContentView /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = PingApp_ContentView_File /* ContentView.swift */; };
+		PingApp_HistoryView /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = PingApp_HistoryView_File /* HistoryView.swift */; };
+		PingApp_MenuBarManager /* MenuBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = PingApp_MenuBarManager_File /* MenuBarManager.swift */; };
+		PingApp_MonitoringView /* MonitoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = PingApp_MonitoringView_File /* MonitoringView.swift */; };
+		PingApp_PingInputView /* PingInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = PingApp_PingInputView_File /* PingInputView.swift */; };
+		PingApp_PingService /* PingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = PingApp_PingService_File /* PingService.swift */; };
+		PingApp_SettingsView /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = PingApp_SettingsView_File /* SettingsView.swift */; };
+		SwiftyPing_Product /* ICMPPing in Frameworks */ = {isa = PBXBuildFile; productRef = SwiftyPing_Package_Product /* ICMPPing */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		PingApp_App /* PingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		PingApp_AppDelegate_File /* PingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingApp.swift; sourceTree = "<group>"; };
+		PingApp_AppState_File /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		PingApp_Assets_File /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		PingApp_ColorRules_File /* ColorRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRules.swift; sourceTree = "<group>"; };
+		PingApp_ContentView_File /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		PingApp_Entitlements /* PingApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PingApp.entitlements; sourceTree = "<group>"; };
+		PingApp_HistoryView_File /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		PingApp_Info_plist /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		PingApp_MenuBarManager_File /* MenuBarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarManager.swift; sourceTree = "<group>"; };
+		PingApp_MonitoringView_File /* MonitoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringView.swift; sourceTree = "<group>"; };
+		PingApp_PingInputView_File /* PingInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingInputView.swift; sourceTree = "<group>"; };
+		PingApp_PingService_File /* PingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingService.swift; sourceTree = "<group>"; };
+		PingApp_SettingsView_File /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		PingApp_Frameworks /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				SwiftyPing_Product /* ICMPPing in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		PingApp_Group = {
+			isa = PBXGroup;
+			children = (
+				PingApp_Sources /* Sources/PingApp */,
+				PingApp_Products /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		PingApp_Products /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				PingApp_App /* PingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		PingApp_Sources /* Sources/PingApp */ = {
+			isa = PBXGroup;
+			children = (
+				PingApp_AppDelegate_File /* PingApp.swift */,
+				PingApp_AppState_File /* AppState.swift */,
+				PingApp_ColorRules_File /* ColorRules.swift */,
+				PingApp_ContentView_File /* ContentView.swift */,
+				PingApp_HistoryView_File /* HistoryView.swift */,
+				PingApp_MenuBarManager_File /* MenuBarManager.swift */,
+				PingApp_MonitoringView_File /* MonitoringView.swift */,
+				PingApp_PingInputView_File /* PingInputView.swift */,
+				PingApp_PingService_File /* PingService.swift */,
+				PingApp_SettingsView_File /* SettingsView.swift */,
+				PingApp_Assets_File /* Assets.xcassets */,
+				PingApp_Info_plist /* Info.plist */,
+				PingApp_Entitlements /* PingApp.entitlements */,
+			);
+			path = Sources/PingApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		PingApp_Target /* PingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = PingApp_BuildConfigurationList /* Build configuration list for PBXNativeTarget "PingApp" */;
+			buildPhases = (
+				PingApp_Sources_Phase /* Sources */,
+				PingApp_Frameworks /* Frameworks */,
+				PingApp_Resources /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingApp;
+			productName = PingApp;
+			productReference = PingApp_App /* PingApp.app */;
+			productType = "com.apple.product-type.application";
+			packageProductDependencies = (
+				SwiftyPing_Package_Product /* ICMPPing */,
+			);
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PingApp_Project /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+			};
+			buildConfigurationList = PingApp_Project_BuildConfigurationList /* Build configuration list for PBXProject "PingApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = PingApp_Group;
+			productRefGroup = PingApp_Products /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			packageReferences = (
+				SwiftyPing_Package /* XCRemoteSwiftPackageReference "SwiftyPing" */,
+			);
+			targets = (
+				PingApp_Target /* PingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		PingApp_Resources /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				PingApp_Assets /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		PingApp_Sources_Phase /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				PingApp_AppDelegate /* PingApp.swift in Sources */,
+				PingApp_AppState /* AppState.swift in Sources */,
+				PingApp_ColorRules /* ColorRules.swift in Sources */,
+				PingApp_ContentView /* ContentView.swift in Sources */,
+				PingApp_HistoryView /* HistoryView.swift in Sources */,
+				PingApp_MenuBarManager /* MenuBarManager.swift in Sources */,
+				PingApp_MonitoringView /* MonitoringView.swift in Sources */,
+				PingApp_PingInputView /* PingInputView.swift in Sources */,
+				PingApp_PingService /* PingService.swift in Sources */,
+				PingApp_SettingsView /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		PingApp_Debug /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Sources/PingApp/PingApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QLHZVM6WMF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/PingApp/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Statusbar Ping App";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.papadopulos.pingapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		PingApp_Release /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Sources/PingApp/PingApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QLHZVM6WMF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/PingApp/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Statusbar Ping App";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.papadopulos.pingapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		PingApp_BuildConfigurationList /* Build configuration list for PBXNativeTarget "PingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				PingApp_Debug /* Debug */,
+				PingApp_Release /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		PingApp_Project_BuildConfigurationList /* Build configuration list for PBXProject "PingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				PingApp_Debug /* Debug */,
+				PingApp_Release /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		SwiftyPing_Package /* XCRemoteSwiftPackageReference "ICMPPing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LebJe/ICMPPing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		SwiftyPing_Package_Product /* ICMPPing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = SwiftyPing_Package /* XCRemoteSwiftPackageReference "ICMPPing" */;
+			productName = ICMPPing;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = PingApp_Project /* Project object */;
+}
