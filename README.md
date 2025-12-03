@@ -74,10 +74,12 @@ Alternatively, use the provided build script:
 
 ### Core Components
 
-- **PingService**: Handles network ping operations using the system `ping` command
+- **PingService**: Handles network ping operations using the system `/sbin/ping` command
+  - Process-based implementation (no ICMP libraries)
   - Async/await based API
   - Configurable timeout (5 seconds default)
-  - Regex-based latency parsing
+  - Regex-based latency parsing from ping output
+  - No special entitlements required
   
 - **AppState**: Central state management using SwiftUI's `@Published` properties
   - Persistent storage via UserDefaults

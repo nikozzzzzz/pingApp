@@ -1,0 +1,13 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild test -project PingApp.xcodeproj -scheme PingApp -destination platform=macOS
+
+Resolve Package Graph
+
+
+Resolved source packages:
+  ICMPPing: https://github.com/LebJe/ICMPPing.git @ 0.0.1
+
+2025-11-30 09:42:22.547 xcodebuild[23929:823606] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+2025-11-30 09:42:22.556 xcodebuild[23929:823606] Writing error result bundle to /var/folders/b8/ys46gy2x1rsfbt4qzb6vx7cr0000gn/T/ResultBundle_2025-30-11_09-42-0022.xcresult
+xcodebuild: error: Scheme PingApp is not currently configured for the test action.
+
